@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "deploy": "gh-pages -d website",
+    "start": "http-server website"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "http-server": "^14.1.0"
+  }
+}
