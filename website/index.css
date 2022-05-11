@@ -127,6 +127,10 @@ code {
     opacity: 0.8;
 }
 
+.info .media {
+    margin: 0 -16px;
+}
+
 .info .media video {
     max-width: 100%;
     border-radius: 5px;
