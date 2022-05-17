@@ -93,11 +93,11 @@ code {
 }
 
 .info .inner ul li {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .info .inner ul li.last {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .info .actionBlock {
