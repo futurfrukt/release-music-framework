@@ -160,8 +160,12 @@ header b {
 }
 
 .media__description {
-    margin: 12px 0 32px;
+    margin: 32px 0 12px;
     text-align: center;
+}
+
+.media__description:first-child {
+    margin-top: 0;
 }
 
 .secondPage {
