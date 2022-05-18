@@ -6,5 +6,5 @@
         ? node.src.replace('_1.png', '_2.png')
         : node.src.replace('_2.png', '_1.png');
     });
-  }, 1100);
+  }, 2000);
 })();
