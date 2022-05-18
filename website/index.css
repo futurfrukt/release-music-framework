@@ -115,6 +115,12 @@ header b {
     margin: 0 0 24px;
 }
 
+.inner__bottom {
+    font-size: 16px;
+    margin: 32px 16px 8px;
+    text-align: center;
+}
+
 .actionBlock {
     margin: 32px 0 16px 0;
     text-align: center;
@@ -173,9 +179,4 @@ header b {
     text-align: center;
     font-size: 17px;
     font-weight: 300;
-}
-
-.bottomText {
-    font-size: 16px;
-    margin: 0 16px 32px;
 }
