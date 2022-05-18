@@ -71,6 +71,10 @@ a:hover {
     margin-bottom: 6px;
 }
 
+.line:last-child {
+    margin-bottom: 0;
+}
+
 header b {
     font-weight: 400;
 }
@@ -89,7 +93,7 @@ header b {
 
 .inner {
     margin: 8px 0;
-    padding: 16px;
+    padding: 16px 0;
     font-size: 16px;
     text-align: left;
     font-weight: 300;
@@ -97,7 +101,7 @@ header b {
 }
 
 .inner ul {
-    margin: 0 0 16px 0;
+    margin: 0 16px 8px;
     list-style: cjk-heavenly-stem;
 }
 
@@ -111,11 +115,11 @@ header b {
 
 .inner__text {
     text-align: center;
-    margin: 0 16px 24px;
+    margin: 0 0 24px;
 }
 
 .actionBlock {
-    margin: 24px 8px;
+    margin: 32px 0 16px 0;
     text-align: center;
 }
 
@@ -139,7 +143,6 @@ header b {
 }
 
 .media {
-    margin: 0 -16px;
     text-align: center;
 }
 
