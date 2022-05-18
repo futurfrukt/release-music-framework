@@ -45,19 +45,19 @@ code {
     line-height: 130%;
 }
 
-.info .inner ul span {
+.inner ul span {
 }
 
-.info a {
+a {
     color: var(--color-text);
     text-decoration: none;
     border-bottom: 1px solid var(--color-sc);
 }
-.info a:hover {
+a:hover {
     color: var(--color-sc);
 }
 
-.info .header {
+.header {
     padding: 16px;
     border-color: var(--color-sc);
     border-width: 2px;
@@ -67,20 +67,28 @@ code {
     font-weight: 300;
 }
 
-.info .header .line {
-    margin-bottom: 4px;
+.line {
+    margin-bottom: 6px;
 }
 
-.info header b {
+header b {
     font-weight: 400;
 }
 
-.info .footer {
-    padding: 16px;
+.footer {
+    padding: 24px;
+}
+
+.withBorderTop {
     border-top: 2px dashed var(--color-sc);
 }
 
-.info .inner {
+.withBorderBottom {
+    border-bottom: 2px dashed var(--color-sc);
+}
+
+.inner {
+    margin: 8px 0;
     padding: 16px;
     font-size: 16px;
     text-align: left;
@@ -88,50 +96,82 @@ code {
     flex: 1 0;
 }
 
-.info .inner ul {
+.inner ul {
+    margin: 0 0 16px 0;
     list-style: cjk-heavenly-stem;
 }
 
-.info .inner ul li {
+.inner ul li {
     margin-bottom: 6px;
 }
 
-.info .inner ul li.last {
+.inner ul li.last {
     margin-bottom: 20px;
 }
 
-.info .actionBlock {
-    margin: 32px 8px;
+.inner__text {
+    text-align: center;
+    margin: 0 16px 24px;
+}
+
+.actionBlock {
+    margin: 24px 8px;
     text-align: center;
 }
 
-.info .actionBlock a {
+.actionBlock a {
     display: inline-block;
     font-weight: 400;
-    font-size: 16px;
-    padding: 8px 16px;
+    font-size: 18px;
+    padding: 14px 26px;
     border-radius: 4px;
     background-color: var(--color-sc);
     border: 2px solid var(--color-sc);
     color: var(--color-text);
 }
 
-.info .actionBlock a:hover {
+.actionBlock a:hover {
     border-color: white;
 }
 
-.info .actionBlock .subtitle {
+.actionBlock .subtitle {
     margin-top: 12px;
-    font-size: 14px;
-    color: var(--color-text);
-    opacity: 0.8;
 }
 
-.info .media {
+.media {
     margin: 0 -16px;
+    text-align: center;
 }
 
-.info .media video {
-    max-width: 100%;
-    border-radius: 5px;
+.media video {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 4px;
+}
+
+.media .animation {
+    width: 100%;
+    max-width: 528px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.media__description {
+    margin: 8px 0 24px;
+    text-align: center;
+}
+
+.secondPage {
+    padding: 16px;
+    border-color: var(--color-sc);
+    border-width: 2px;
+    border-style: dashed;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.bottomText {
+    font-size: 16px;
+    margin: 0 16px 32px;
 }
