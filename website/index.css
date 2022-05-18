@@ -45,9 +45,6 @@ code {
     line-height: 130%;
 }
 
-.inner ul span {
-}
-
 a {
     color: var(--color-text);
     text-decoration: none;
