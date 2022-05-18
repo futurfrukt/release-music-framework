@@ -96,11 +96,11 @@ header b {
     padding: 16px 0;
     font-size: 16px;
     text-align: left;
-    font-weight: 300;
     flex: 1 0;
 }
 
 .inner ul {
+    font-weight: 300;
     margin: 0 16px 8px;
     list-style: cjk-heavenly-stem;
 }
@@ -160,7 +160,7 @@ header b {
 }
 
 .media__description {
-    margin: 8px 0 24px;
+    margin: 12px 0 32px;
     text-align: center;
 }
 
